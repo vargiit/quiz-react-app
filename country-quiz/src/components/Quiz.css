@@ -1,0 +1,73 @@
+.quiz-container {
+  width: 29rem;
+  height: 35rem;
+  background: white;
+  border-radius: 24px;
+  position: relative;
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  width: 25.265625rem;
+  height: 3.5rem;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  padding: 19px;
+  border: 2px solid #6066d0;
+  margin-bottom: 1.5625rem;
+}
+
+.list-styles:hover {
+  background-color: #f9a826 !important;
+  border: none !important;
+}
+
+img {
+  width: 4rem;
+}
+
+h2 {
+  margin: 2rem 0 2rem 0;
+}
+
+.left-span {
+  margin-left: 2.875rem;
+}
+
+.adventure-logo {
+  position: absolute;
+  left: 18.875rem;
+  top: -4.6rem;
+}
+
+.start {
+  padding: 1rem;
+  background-color: #f9a826;
+  text-decoration: none;
+  color: white;
+  border-radius: 12px;
+}
+
+.next-button {
+  width: 7.25rem;
+  height: 3.5rem;
+  background-color: #f9a826;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+.flex-next {
+  display: flex;
+  justify-content: flex-end;
+}

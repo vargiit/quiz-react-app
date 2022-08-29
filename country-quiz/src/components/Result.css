@@ -1,0 +1,41 @@
+.result-container {
+  width: 29rem;
+  height: 34.9375rem;
+  background: white;
+  border-radius: 24px;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.result-container h2 {
+  color: #1d355d;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.result-container p {
+  color: #1d355d;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.result-container span {
+  color: #6fcf97;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.result-container button {
+  width: 13.0625rem;
+  height: 3.875rem;
+  color: #1d355d;
+  border: 3px solid #1d355d;
+  background-color: transparent;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
